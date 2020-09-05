@@ -1,0 +1,36 @@
+.rr{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    background: #ffac57;
+}
+fieldset {
+    border: medium none !important;
+    /*margin: 0 0 10px;*/
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    /*margin: 0 0 5px;*/
+    /*padding: 10px;*/
+    font-size: 15px;
+}
